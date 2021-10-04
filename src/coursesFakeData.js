@@ -1,4 +1,4 @@
-const coursesData = [
+/* const coursesData = [
   {
     key: 1,
     course_name: "The Complete Angular Course: Beginner to Advanced",
@@ -132,7 +132,7 @@ const coursesData = [
     rating: "4.9",
     total_lacture: "55",
     level: "intermediate",
-    img: "./course images/mongodb.jpg",
+    img: "./course images/node js.jpg",
     description:
       "Master Node, Express & MongoDB by building real-world apps with Authentication, File Uploads, WebScrapping, Deployment..",
   },
@@ -150,3 +150,4 @@ const coursesData = [
     description: "Improve your understanding of React",
   },
 ];
+ */

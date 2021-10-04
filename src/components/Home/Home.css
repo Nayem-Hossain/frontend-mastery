@@ -1,0 +1,39 @@
+.margin-top{
+    margin-top: 100px;
+}
+.banner{
+    background-image: linear-gradient(
+        115deg,
+        rgba(32, 32, 61, 0.8),
+        rgba(107, 107, 255, 0.7)
+      ),
+      url(../../banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.headline{
+    font-size: 5rem;
+}
+.size{
+    padding: 250px;
+    
+}
+.btn-width{
+    width: 10rem;
+}
+.button{
+    width: 20rem;
+}
+/* .banner::before {
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ),
+      url("https://www.teahub.io/photos/full/93-936140_best-desktop-wallpaper-wallpapersafari-pretty-backgrounds.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  } */

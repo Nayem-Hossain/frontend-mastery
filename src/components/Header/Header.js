@@ -6,7 +6,7 @@ import logo from "../../websiteLogo.png";
 const Header = () => {
   return (
     <nav
-      className="navbar navbar-expand-lg navbar-light"
+      className="navbar navbar-expand-lg navbar-light fixed-top"
       style={{ backgroundColor: "#e3f2fd" }}
     >
       <div className="container-fluid mx-5">
@@ -32,7 +32,7 @@ const Header = () => {
               <NavLink
                 className="nav-link active"
                 aria-current="page"
-                to="/"
+                to="/home"
               >
                 Home
               </NavLink>

@@ -6,6 +6,7 @@ import TeachOnMastery from "./components/TeachOnMastery/TeachOnMastery";
 import Services from "./components/Services/Services";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import NotFound from "./components/NotFound404/NotFound";
 function App() {
   return (
     <Router>
@@ -13,7 +14,10 @@ function App() {
         <Header></Header>
 
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
+          <Route path="/home">
             <Home></Home>
           </Route>
           <Route path="/Teach-on-mastery">
@@ -24,6 +28,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About></About>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
           </Route>
         </Switch>
 
