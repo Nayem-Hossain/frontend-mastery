@@ -1,0 +1,12 @@
+footer{
+    background-color: rgb(11, 31, 57);
+}
+.brand-logo img{
+width: 80px;
+height: 79px;
+}
+.underline{
+    padding-bottom: 10px;
+    text-decoration: underline;
+    text-underline-position:under;
+}

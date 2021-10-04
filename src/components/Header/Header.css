@@ -1,0 +1,6 @@
+.nav-link-hover:hover{
+background-color: lightpink;
+color: aliceblue;
+border-radius: 1rem;
+border: 2px solid lightslategray;
+}
