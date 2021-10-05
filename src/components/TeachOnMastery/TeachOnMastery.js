@@ -13,19 +13,19 @@ const TeachOnMastery = () => {
         <div>
           <nav className="">
             <Link to="/Teach-on-mastery/plane-your-curriculum">
-              <button className="fw-bold btn btn-danger my-4 button link">
+              <button className="fw-bold btn my-4 link active">
                 Plane your Curriculum
               </button>
             </Link>
 
             <Link to="/Teach-on-mastery/record-your-video">
-              <button className="fw-bold btn btn-danger my-4 button link">
+              <button className="fw-bold btn my-4 link">
                 Record your Video
               </button>
             </Link>
 
             <Link to="/Teach-on-mastery/launch-your-course">
-              <button className="fw-bold btn btn-danger my-4 button link">
+              <button className="fw-bold btn my-4 link">
                 Launch your Course
               </button>
             </Link>

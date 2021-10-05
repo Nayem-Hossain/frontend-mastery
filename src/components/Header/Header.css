@@ -1,6 +1,14 @@
-.nav-link-hover:hover{
-background-color: lightpink;
-color: aliceblue;
-border-radius: 1rem;
-border: 2px solid lightslategray;
+.navLink {
+  border-radius: 1rem;
+  border: 1px solid lightslategray;
+  border-bottom: 5px solid lightslategray;
+}
+.navLink:hover {
+  background-color: rgb(134, 198, 255);
+  color: aliceblue;
+  border: 1px solid lightslategray;
+  border-bottom: 5px solid lightslategray;
+}
+.search-width {
+  width: 25rem;
 }

@@ -1,26 +1,61 @@
-.icon-style-about {
-  background-color: rgb(49, 77, 255);
+.margin-top {
+  margin-top: 100px;
+}
+.contactInfo{
+  background-image: linear-gradient(
+        115deg,
+        rgba(18, 18, 57, 0.721),
+        rgba(39, 39, 83, 0.646)
+      ),
+      url(../../contactUsBackground.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+.submit-btn{
+  background-color: rgb(115, 157, 255);
+}
+.info-submit{
+  border-radius: 100px;
+}
+.text-heading{
+  font-size: 5.5rem;
+}
+.topMargin{
+  margin-top: 10rem;
+}
+.bottomMargin{
+  margin-bottom: 5rem;
+}
+.icon-bg-style {
+  text-align: center;
+  background-color: white;
   padding: 4px;
-  font-size: 32px;
+  font-size: 40px;
   height: 60px;
   width: 60px;
   line-height: 50px;
   border-radius: 50%;
-  color: white;
+  color: rgb(32, 62, 62);
 }
+
+
+
+
+
+
+
 .text-center-1 {
   text-align: center !important;
 }
 .bg-cus {
-  /* background-color: #f6efeb; */
-  background-color: lightpink;
+  background-color: rgb(214, 204, 255);
   border-radius: 20px;
 
   text-align: center !important;
 }
-.margin-top {
-  margin-top: 100px;
-}
+
 .form-group {
     width: 50%;
   margin: 0 auto 1.25rem auto;

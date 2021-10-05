@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import Course from "../Course/Course";
 import "./Home.css";
 
 const Home = () => {
@@ -22,46 +23,35 @@ const Home = () => {
           </p>
         </div>
         <div className="mt-5">
-          <form className="input-group py-2" style={{ width: "45rem" }}>
-            <input
-              className="form-control"
-              type="search"
-              placeholder="For Latest News Subscribes With Your Email"
-              aria-label="Search"
-            />
-            <button
-              className="btn bg-warning text-white btn-width"
-              type="submit"
-            >
-              Subscribe
-            </button>
+          <form className="input-group py-4 w-75">
+              <input
+                className="form-control p-4"
+                type="search"
+                placeholder="For Latest News Subscribes With Your Email"
+                aria-label="Search"
+              />
+              <button
+                className="btn bg-warning text-white banner-btn-width"
+                type="submit"
+              >
+                Subscribe
+              </button>
           </form>
         </div>
       </section>
 
       {/* best courses section */}
-      <section>
-        <h2 className="my-3 fw-bolder mb-4">Our Best Selling Courses</h2>
+      <section className='container-fluid'>
+        <h2 className="mt-5 mb-3 fw-bolder mb-4">Our Best Selling Courses</h2>
         <div className="row row-cols-1 row-cols-md-3 g-4">
-          {courses.slice(0, 6).map((bestCourse) => (
-            <div className="col">
-              <div className="card h-100">
-                <img
-                  src={bestCourse.img}
-                  className="card-img-top"
-                  alt={bestCourse.course_name}
-                />
-                <div className="card-body">
-                  <h6 className="card-title fw-bold">
-                    {bestCourse.course_name}
-                  </h6>
-                  <p className="card-text">{bestCourse.instructor}</p>
-                </div>
-              </div>
-            </div>
+          {courses.slice(4, 10).map((bestCourse) => (
+            <Course
+            key={bestCourse.key}
+            courseInformation={bestCourse}
+          ></Course>
           ))}
         </div>
-        <div className='d-flex justify-content-center'>
+        <div className="d-flex justify-content-center">
           <Link to="/Services">
             <button className="fw-bold btn btn-danger my-4 button">
               View More

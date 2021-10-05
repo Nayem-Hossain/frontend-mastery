@@ -8,4 +8,4 @@ Purpose:
 
 => you can select the quialityfull courses for your heavy skills.
 
-=> however its a community of the various worlds valuable teachers courses.
+=> however its a community of the worlds best teachers who teaches online.

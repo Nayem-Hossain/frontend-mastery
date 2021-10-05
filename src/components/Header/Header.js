@@ -27,8 +27,8 @@ const Header = () => {
         </NavLink>
 
         <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item nav-link-hover">
+          <ul className="navbar-nav gap-2">
+            <li className="nav-item navLink">
               <NavLink
                 className="nav-link active"
                 aria-current="page"
@@ -38,39 +38,35 @@ const Header = () => {
               </NavLink>
             </li>
 
-            <li className="nav-item nav-link-hover">
+            <li className="nav-item navLink">
               <NavLink className="nav-link" to="/Teach-on-mastery">
                 Teach on Mastery
               </NavLink>
             </li>
 
-            <li className="nav-item nav-link-hover">
+            <li className="nav-item navLink">
               <NavLink className="nav-link" to="/services">
                 Services
               </NavLink>
             </li>
 
-            <li className="nav-item nav-link-hover">
+            <li className="nav-item navLink">
               <NavLink className="nav-link" to="/about">
                 About
               </NavLink>
             </li>
-
-            <form
-              className="input-group ms-lg-5 mx-sm-auto"
-              style={{ width: "30rem" }}
-            >
-              <input
-                className="form-control"
-                type="search"
-                placeholder="Search Your Favourite Course"
-                aria-label="Search"
-              />
-              <button className="btn  bg-primary text-white" type="submit">
-                Search
-              </button>
-            </form>
           </ul>
+          <form class="input-group search-width mx-auto">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-secondary" type="submit">
+              Search
+            </button>
+          </form>
           <div className="m-2 p-2 btn-outline-danger border border-danger rounded-pill">
             <i class="fas fa-unlock-alt"></i> Login
           </div>
